@@ -11,3 +11,7 @@ int main() {
 }
 
 use setprecicision() and set fixed
+https://www.programiz.com/cpp-programming/float-double#:~:text=In%20C%2B%2B%2C%20both%20float%20and%20double%20data%20types,F%20at%20the%20end%20of%20a%20float%20value.
+takeaways -:
+both float and double datatype are used to denote floating point numbers . always use double data type over float to avoid errors .
+double is used for precision in decimal points
