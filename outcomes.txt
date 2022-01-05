@@ -1,0 +1,13 @@
+c++
+to print significant decimal places output in c++
+int main() {
+	float p,r,t;
+	float si;
+	cin>>p>>r>>t;
+	si=p*r*t/100;
+	cout<<setprecision(6)<<std::fixed<<si;
+	
+	return 0;
+}
+
+use setprecicision() and set fixed
