@@ -5,3 +5,21 @@ immutable -: strings, numbers, tuples
 mutable-: list,dictionary
 2.  set does not allow duplicate items inside it
 3. set items are not in order
+sets in python are like the sets in mathematics
+. it does not allow duplicate elements 
+. it only allow immutable elements
+. it has not any order so we dont use indexes in set in python
+
+> creating set
+set1={'dasa','fasfas','fafasfs'}
+>creating empty set
+set2=set()
+set2=set(['asfs','fasfas','fsafa'])
+>set operations
+set1.add()  to add elements
+set1.update()  to update elements
+set1.discard() or set1.remove()
+set1.clear() to clear everything in set
+set1.union(),set1.intersection()
+
+to check any element in the set we use 'in' operator
