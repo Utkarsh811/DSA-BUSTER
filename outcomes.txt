@@ -18,4 +18,3 @@ double is used for precision in decimal points
 
 char AND STRING IN C++
 https://www.programiz.com/cpp-programming/strings
-
