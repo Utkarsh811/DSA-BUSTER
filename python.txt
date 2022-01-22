@@ -1,1 +1,7 @@
 
+sets in python
+1. set only allow immutable items inside them.
+immutable -: strings, numbers, tuples
+mutable-: list,dictionary
+2.  set does not allow duplicate items inside it
+3. set items are not in order
