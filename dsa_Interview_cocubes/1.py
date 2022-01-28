@@ -24,32 +24,7 @@ for i in range(0,len(arr)):
         i=i+1
 if(flag==0):
     print('-1')
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
 #code
