@@ -1,0 +1,5 @@
+seating arrangement
+directions here are important
+step1  count the no of people 
+step2 draw the frame and arrange people
+step3 read sentence by sentence and merge them
