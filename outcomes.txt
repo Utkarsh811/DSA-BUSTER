@@ -18,3 +18,7 @@ double is used for precision in decimal points
 
 char AND STRING IN C++
 https://www.programiz.com/cpp-programming/strings
+
+
+Two Pointer technique 
+two pointer technique is used to optimise the time complexity of the solution
