@@ -22,3 +22,7 @@ https://www.programiz.com/cpp-programming/strings
 
 Two Pointer technique 
 two pointer technique is used to optimise the time complexity of the solution
+in case of 2 sum
+by naive method O(n^2)
+by two pointers o(nlogn)
+by hashmap  o(n)
