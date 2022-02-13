@@ -26,3 +26,19 @@ in case of 2 sum
 by naive method O(n^2)
 by two pointers o(nlogn)
 by hashmap  o(n)
+
+
+
+LINEAR SEARCHINH
+its one of the type of the searching technique
+suppose we get the key and we have to fimd that key in an array 
+for that we have to find that key one by one comparisons in the array 
+if{
+comparisons matched key found
+}
+best case is O(1) means constant time  , when the key element is at the first index in an array , in thsi case no matter what the size of the array is its always be the O(1) constant time
+worst case is when the element is not in the array yes when the key is not in the array then the time complexity is O(n)
+Here in this case there will be linear time complexity Big O(n)
+if the size of array is 1000 the it will do 1000 comparisons 
+300 size 300 comparisons
+Time complexity - when the input is growing , how the time is growing
