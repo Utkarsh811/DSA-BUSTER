@@ -42,3 +42,40 @@ Here in this case there will be linear time complexity Big O(n)
 if the size of array is 1000 the it will do 1000 comparisons 
 300 size 300 comparisons
 Time complexity - when the input is growing , how the time is growing
+
+
+
+
+
+
+
+
+
+ 
+  
+ 
+ 
+  
+  
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+  
+ 
+ 
+  
+  
+ 
+
+
+
+ 
