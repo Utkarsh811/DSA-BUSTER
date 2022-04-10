@@ -26,3 +26,137 @@ in case of 2 sum
 by naive method O(n^2)
 by two pointers o(nlogn)
 by hashmap  o(n)
+
+
+
+LINEAR SEARCHINH
+its one of the type of the searching technique
+suppose we get the key and we have to fimd that key in an array 
+for that we have to find that key one by one comparisons in the array 
+if{
+comparisons matched key found
+}
+best case is O(1) means constant time  , when the key element is at the first index in an array , in thsi case no matter what the size of the array is its always be the O(1) constant time
+worst case is when the element is not in the array yes when the key is not in the array then the time complexity is O(n)
+Here in this case there will be linear time complexity Big O(n)
+if the size of array is 1000 the it will do 1000 comparisons 
+300 size 300 comparisons
+Time complexity - when the input is growing , how the time is growing
+
+
+Binary search 
+=> need sorted array 
+=>Ascending or Descending order
+worst case time complexity  O(log n)
+in worst case it does log n comparrisons
+ 
+ To find n when n=1000000
+ Linear Searching        Binary searching
+
+1000000 comparisons       log (1000000) comparisons
+
+
+
+
+
+
+time complexity 
+n array n elements   n ms
+Searching start
+n/2 elements      n/2
+n/4 elements      n/4
+n/8  elements     n/8 
+1 element         n/2 ^k
+ 2^k=n (taking log both sides)
+ log2^k=log n
+ klog2=logn
+ k =log base2 n
+ 
+
+ 
+  binary search~~`~~~~
+ def binary_search(arr,key):
+    a="boom mridula found this at mid"
+    
+    d="mridula not found"
+    lower=0
+    higher=len(arr)-1
+    
+    
+    while(lower<=higher):
+        mid=(lower+higher)//2
+        
+        
+        if(arr[mid]==key):
+            
+            return [a,key]
+        elif(arr[mid]<key):
+            
+            higher=mid-1
+            
+        else:
+            lower=mid+1
+            
+    return d
+
+
+arr=[10,9,8,7,6,5,4,3,2,1]
+key=int(input())
+print(binary_search(arr,key))
+ 
+ 
+ linear search~~~~~
+ def swap(arr,key,i):
+    arr[i]=arr[0]
+    
+    arr[0]=key
+    
+   
+    
+    return arr
+def linear_search(key,arr):
+    a=-1
+    for i in range(len(arr)):
+        if(arr[i]==key):  
+            print(swap(arr,key,i))
+            
+            return i
+            
+    return a;
+            
+
+
+arr=[2,4,6,7,8,5,34,76,100,53,75,86,97]  
+key=int(input())
+print(linear_search(key,arr))
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+  
+ 
+ 
+  
+  
+ 
+
+
+
+ 
